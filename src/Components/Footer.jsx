@@ -7,14 +7,14 @@ const Footer = () => {
     return (
         <section className='bg-[#1E1E1E] text-white mt-7'>
 
-            <div className='text-center grid grid-cols-1 md:flex md:justify-around md:p-7 border-b-2 border-gray-300 md:max-w-[1320px] md:mx-auto'>
+            <div className=' text-center grid grid-cols-1 md:flex md:p-7 border-b-2 border-gray-300 md:max-w-[1320px] md:mx-auto'>
 
-                <div className='w-[350px] h-[200px] sm:mt-7 sm:mx-auto '>
+                <div className='w-[350px] h-[200px] mt-[20px] mx-auto '>
                     <h1 className='font-bold text-2xl mb-2'>CS — Ticket System</h1>
                     <p className=''>All communication with the user and any internal notes about the issue are logged within the ticket's history. This creates a transparent record for both the user and the support team. Once the issue is resolved and confirmed by the user, the ticket is closed and archived for future reference.</p>
                 </div>
 
-                <div className='sm:mt-5'>
+                <div className='sm:mt-5 h-[200px] md:ml-[-30px] md:mr-[30px]'>
                     <h2 className='font-bold text-2xl mb-2'>Company</h2>
                     <ul>
                         <li className='mb-2'>
@@ -35,7 +35,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div>
+                <div className='h-[200px] md:mr-[30px]'>
                     <h2 className='font-bold text-2xl mb-2 sm:mt-5'>Services</h2>
                     <ul>
                         <li className='mb-2'>
@@ -56,7 +56,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div>
+                <div className='h-[200px]'>
                     <h2 className='font-bold text-2xl mb-2 sm:mt-5'>Information</h2>
                     <ul>
                         <li className='mb-2'>
@@ -78,7 +78,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className='h-[200px] sm:mx-auto sm:mb-2'>
+                <div className='h-[200px] mx-auto sm:mb-2'>
 
                     <h2 className='font-bold text-2xl mb-4 sm:mt-5'>Social Links</h2>
                     <ul className=''>
