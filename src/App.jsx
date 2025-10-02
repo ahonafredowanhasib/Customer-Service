@@ -1,6 +1,8 @@
 
 import './App.css'
 import BodyBannerImage from './Components/BodyBannerImage'
+import Cards from './Components/Cards'
+import Footer from './Components/Footer'
 import NavBar from './Components/NavBar'
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
     <>
       <NavBar></NavBar>
       <BodyBannerImage></BodyBannerImage>
-      
+      {/* <Cards></Cards> */}
+      <Footer></Footer>
     </>
   )
 }
